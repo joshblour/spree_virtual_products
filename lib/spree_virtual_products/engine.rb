@@ -1,4 +1,3 @@
-require 'spree_no_shipping'
 module SpreeVirtualProducts
   class Engine < Rails::Engine
     require 'spree/core'
