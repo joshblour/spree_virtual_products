@@ -1,8 +1,12 @@
 # encoding: UTF-8
+
+$:.push File.expand_path("../lib", __FILE__)
+require "spree_virtual_products/version"
+
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_virtual_products'
-  s.version     = '2.2.0'
+  s.version     = SpreeVirtualProducts::VERSION
   s.summary     = 'TODO: Add gem summary here'
   s.description = 'TODO: Add (optional) gem description here'
   s.required_ruby_version = '>= 1.9.3'
